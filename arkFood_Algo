@@ -1,0 +1,21 @@
+Algoritma:
+1. Mulai
+2. Masukkan parameter (harga, jenis voucher, jarak posisi customer ke restoran, dan jenis pajak (true/false)
+3. Ubah input voucher menjadi UpperCase
+4. Tampilkan input harga
+5. Bagi proses menjadi 3 bagian sub proses (voucher, biaya antar, pajak)
+6. Pada proses voucher, cek apakah memiliki input voucher “ARKAFOOD5” dan belanja lebih dari 50.000? 
+7. Jika iya, cek apakah nominal diskon kurang dari 50.000? jika iya, harga barang akan mendapat diskon sebesar 50%, jika tidak, maka diskon akan dikenakan sebesar 50.000 
+8. Cetak nominal diskon
+9. Jika tidak memiliki input voucher “ARKAFOOD5” dan harga belanja kurang dari 50.000 maka cek apakah memiliki input voucher “DITRAKTIRDEMY” dan belanja lebih dari 25.000?
+10. Jika iya, maka cek apakah nominal diskon kurang dari 30.000? jika iya, harga barang akan mendapat diskon sebesar 50%, jika tidak, maka diskon akan dikenakan sebesar 30.000
+11. Cetak nominal diskon
+12. Jika tidak memiliki voucher/ menginputkan string kosong maka nominal diskon = 0 lalu cetak nominal diskon
+13. Pada proses Biaya Antar, jika jarak posisi Customer dan Restoran adalah 2 Km atau kurang, maka biaya akan dikenakan sebesar 5.000
+14. Jika tidak, Biaya Antar akan dikenakan 5.000 untuk 2 Km pertama dan setiap satu kilometer selanjutnya dikenakan penambahan 3.000.
+15. Cetak Biaya Antar	
+16. Pada proses Pajak, cek apakah Pajak pada suatu Restoran bernilai True, jika iya maka akan dikenakan tambahan biaya Pajak sebesar 5% dari Harga / Nominal Pajak = 5% x Harga
+17. Jika tidak, maka tidak akan dikenai biaya Pajak / Nominal Pajak = 0
+18. Cetak Nominal Pajak
+19. Cetak “subtotal” yang terdiri dari hasil Input Harga – Nominal Diskon + Biaya Antar + Nominal Pajak
+20. Selesai
